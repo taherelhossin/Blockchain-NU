@@ -23,7 +23,7 @@ contract MyTestContract {
     }
 
     /**
-    Traverse balance of contract from glabal state not UTXO (thank you doctor Sameh :D )
+    get balance of contract from glabal state not UTXO (thank you doctor :D )
      */
     function getBalance() public constant returns(uint256) {        
         return this.balance;
